@@ -21,7 +21,7 @@
 // //     }else {
 // //         alert('Пароль неверен');
 // //     } 
-    
+    ////////////////////////////////////////////////////
 // // let age = prompt("Сколько лет", 'от 14-90');
 
 // //     if (age >=14 && age <=90 ){
@@ -29,7 +29,7 @@
 // //     } else{
 // //     alert('error');
 // //     }
-
+///////////////////////////////////////////////////////////
 // let number3 =[];
 // for ( let i=2; i<=10; i+=2){
 //  console.log(i);
@@ -44,7 +44,7 @@
 //     number4.push(b);
 //    }
 // number2.innerHTML = number4;
-
+////////////////////////////////
 //  let d =[];
 //  let c=2;
 //  while (c<=11){
@@ -56,10 +56,22 @@
 //     }
 // pic.innerHTML= d;
 
-let j = 3;
-let k= 2;
-let s ='<tr><td>e</td><td>e</td><td>e</td></tr>';
-for ( let q=0; q<=j; q++) {
- s = document.getElementById("tb");
-}
-// console.log(s*j);
+// let  x= prompt("столбцов");
+// let y= prompt("строк"); 
+
+// let tab= `<table>`,c=1;
+
+
+//     for (i=1; i<=y; i++){
+
+//         tab += '<tr>';
+//             for  (j=1; j<=x; j++){
+
+//                 tab +=`<td><a href="link${c}.html">ячейка ${c}</a></td>`;
+//                 c++;
+//             }
+
+//         tab += '</tr>';    
+//     }
+//     tab += "</table>";
+//     tab1.innerHTML =tab;
