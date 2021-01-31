@@ -58,20 +58,22 @@
 
 // let  x= prompt("столбцов");
 // let y= prompt("строк"); 
+let  x= 5;
+let y= 5; 
 
-// let tab= `<table>`,c=1;
+let tab= `<table>`,c=1;
 
 
-//     for (i=1; i<=y; i++){
+    for ( let i=1; i<=y; i++){
 
-//         tab += '<tr>';
-//             for  (j=1; j<=x; j++){
+        tab += '<tr>';
+            for  (let j=1; j<=x; j++){
 
-//                 tab +=`<td><a href="link${c}.html">ячейка ${c}</a></td>`;
-//                 c++;
-//             }
+                tab +=`<td><a href="link${c}.html">ячейка ${c}</a></td>`;
+                c++;
+            }
 
-//         tab += '</tr>';    
-//     }
-//     tab += "</table>";
-//     tab1.innerHTML =tab;
+        tab += '</tr>';    
+    }
+    tab += "</table>";
+    tab1.innerHTML =tab;
